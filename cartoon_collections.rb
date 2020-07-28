@@ -2,7 +2,8 @@ def square_array(array)
   array.map{|num| num**2}
 end
 
-
+def summon_captain_planet(array)
+  array.map do 
 
 
 
