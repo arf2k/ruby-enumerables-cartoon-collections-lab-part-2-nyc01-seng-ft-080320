@@ -3,7 +3,10 @@ def square_array(array)
 end
 
 def summon_captain_planet(array)
-  array.map do 
+  array.map do |calls|
+    puts "#{calls}.capitalize + "!"
+  end
+end
 
 
 
