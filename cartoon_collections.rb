@@ -4,7 +4,7 @@ end
 
 def summon_captain_planet(array)
   array.map do |calls|
-    puts "#{calls}.capitalize + "!""
+    puts "#{calls.capitalize} + "!""
   end
 end
 
